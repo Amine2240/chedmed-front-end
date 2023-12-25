@@ -2,11 +2,11 @@ import React, { useState } from 'react';
 import downIcon from '../../assets/down.svg';
 import { useDispatch, useSelector } from 'react-redux';
 import { getAllProducts } from '../../redux/features/products/productsSlice';
-import data from '../../../../data';
+// import data from '../../../../data';
 
 const Category = (props) => {
     const [isOpen, setIsOpen] = useState(false);
-    const products = data
+    const products = []
 
     return (
         <li className='border py-2 px-3 rounded-lg  bg-white'>

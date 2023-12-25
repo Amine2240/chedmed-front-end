@@ -1,11 +1,11 @@
 import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
 import axios from "axios";
-import data from "../../../../../data";
+// import data from "../../../../../data";
 const initialState = {
     isLoading: false,
     users: [],
     errorMsg: "",
-    products: data,
+    products: [],
     productsSearch: [],
     categories: []
 }

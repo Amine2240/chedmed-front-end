@@ -2,10 +2,10 @@ import React, { useState } from 'react'
 import Barchart from './Barchart'
 import Linechart from './lineChart'
 import Piechart from './piechart'
-import data from '../../../../data'
+// import data from '../../../../data'
 const index = () => {
     const [inputValue, setInputValue] = useState('');
-
+   const data =[]
     const newdata = data.filter(item => {
         // if (item.title.includes(inputValue) && inputValue != '') {
         //     return true
